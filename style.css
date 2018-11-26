@@ -1,0 +1,49 @@
+body{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+header{
+	height: 100px;
+	padding-top: 20px;
+}
+.header-logo img{
+	padding: 20px;
+	margin-left: 20px;
+	width: 240px;
+}
+.contact{
+	padding: 20px;
+	float: right;
+	font-weight: bold;
+}
+.contact label{
+	display: block;
+	font-size: 10px;
+}
+.contact .tel-namuber{
+	font-size: 20px;
+}
+.contact .tel {
+	float: left;
+}
+.contact .Inquiry{
+	float: left;
+	line-height: 40px;
+}
+.header-logo{
+	float: left;
+}
+.contact a{
+	background-color: #f2a1bf;
+	padding: 20px;
+	color: white;
+	margin-left: 15px;
+	margin-right: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 1px #000000;
+}
+.contact .fas{
+	font-size: 20px;
+}
