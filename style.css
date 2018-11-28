@@ -1,12 +1,18 @@
-body{
+*{
 	margin: 0;
+	padding: 0;
 }
 a{
 	text-decoration: none;
 }
 header{
 	height: 100px;
-	padding-top: 20px;
+	padding-top: 15px
+}
+header .clearfix{
+	content: "";
+	clear: both;
+	display: block;
 }
 .header-logo img{
 	padding: 20px;
@@ -17,6 +23,7 @@ header{
 	padding: 20px;
 	float: right;
 	font-weight: bold;
+	clear
 }
 .contact label{
 	display: block;
@@ -28,7 +35,7 @@ header{
 .contact .tel {
 	float: left;
 }
-.contact .Inquiry{
+.contact .inquiry{
 	float: left;
 	line-height: 40px;
 }
