@@ -7,9 +7,9 @@ a{
 }
 header{
 	height: 100px;
-	padding-top: 15px
+	padding-top: 15px;
 }
-header .clearfix{
+.cleaefix::after{
 	content: "";
 	clear: both;
 	display: block;
@@ -23,7 +23,6 @@ header .clearfix{
 	padding: 20px;
 	float: right;
 	font-weight: bold;
-	clear
 }
 .contact label{
 	display: block;
