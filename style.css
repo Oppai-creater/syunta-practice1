@@ -9,7 +9,7 @@ header{
 	height: 100px;
 	padding-top: 15px;
 }
-.cleaefix::after{
+.clearfix::after{
 	content: "";
 	clear: both;
 	display: block;
@@ -41,7 +41,7 @@ header{
 .header-logo{
 	float: left;
 }
-.contact a{
+header .contact .mail-btn{
 	background-color: #f2a1bf;
 	padding: 20px;
 	color: white;
