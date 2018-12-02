@@ -53,3 +53,50 @@ header .contact .mail-btn{
 .contact .fas{
 	font-size: 20px;
 }
+.header-bottom{
+	margin-top: 15px;
+}
+.header-bottom .topics{
+	float: left;
+	text-align: center;
+	width: 212px;
+}
+.header-bottom .topic{
+	border-right: 2px solid #d3d3d3;
+}
+.handshake .topic{
+	border-right: none;
+}
+.header-bottom p{
+	font-size: 10px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+section{
+	margin-top: 5px;
+	color: #000000;
+}
+.header-bottom .news{
+	color: #ffb3ff;
+}
+.header-bottom .music{
+	color: #ffbf00;
+}
+.header-bottom .child{
+	color: #99e600;
+}
+.header-bottom .award{
+	color: #00e6e6;
+}
+.header-bottom .school{
+	color: #cc52cc;
+}
+.header-bottom .handshake{
+	color: #998a99;
+}
+.header-bottom .fas{
+	font-size: 30px;
+}
+
+
+
