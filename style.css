@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	list-style: none;
 }
 a{
 	text-decoration: none;
@@ -50,6 +51,46 @@ header .contact .mail-btn{
 	border-radius: 10px;
 	box-shadow: 0px 1px #000000;
 }
-.contact .fas{
+.contact i{
 	font-size: 20px;
+}
+.header-bottom{
+	margin-top: 15px;
+}
+.header-bottom .nav-list{
+	float: left;
+	text-align: center;
+	width: 16.5%;
+	border-right: 2px solid #d3d3d3;
+}
+.header-bottom i{
+	font-size: 30px;
+}
+.header-bottom .news{
+	color: #ffb3ff;
+}
+.header-bottom .about{
+	color: #ffbf00;
+}
+.header-bottom .childcare{
+	color: #99e600;
+}
+.header-bottom .information{
+	color: #00e6e6;
+}
+.header-bottom .partner{
+	color: #cc52cc;
+}
+.header-bottom .recruit{
+	color: #998a99;
+	border-right: none;
+}
+.header-bottom .nav-list span{
+	display: block;
+	color: #000000;
+}
+.nav-list .text{
+	font-size: 10px;
+	letter-spacing: 2px;
+	font-weight: bold;
 }
