@@ -96,35 +96,41 @@ header .contact .mail-btn{
 }
 .main-visual{
 	height: 650px;
-	background-image:url(../img/main/image4.jpg);
-	background-size:cover;
+	background-image: url(../img/main/image4.jpg);
+	background-size: cover;
 	background-position: bottom;
 	position: relative;
 }
-.partner-recruit-information{
-	display: inline-block;
-	text-align: center;
-	position: absolute;
-	top: 600px;
-	right: 20px;
+.partner-recruit-circle{
+	height: 280px;
+	width: 280px;
 	background-color: white;
 	border-radius: 50%;
-	height: 300px;
-	width: 300px;
-	border:3px solid pink;
-}
-.partner-recruit-information{
+	border:5px solid pink;
+	text-align: center;
 	color: pink;
+	position: absolute;
+	bottom: -50px;
+	right: 30px;
+    font-weight: bold;
+	}
+.partner-recruit-circle .canpain{
+	margin-top: 40px;
+	font-size: 18px;
 }
-.partner-recruit{
-	font-size: 25px;
+.partner-recruit-circle .canpain::after{
+	content:"";
+	display: block;
+	height: 1px;
+	width: 35px;
+	margin: 0 auto;
+	background-color: pink;
 }
-.rrr{
-	padding-top: 60px;
+.partner-recruit-circle .recruiting{
+	margin-top: 15px;
+	font-size: 28px;
 }
-.opening{
-	border-bottom: 1px solid pink;
-	position: relative;
-  display: inline-block;
-  margin-bottom: 1em;
+.partner-recruit-circle .link-icon{
+	margin-top: 25px;
+	font-size: 30px;
 }
