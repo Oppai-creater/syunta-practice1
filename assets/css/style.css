@@ -134,3 +134,49 @@ header .contact .mail-btn{
     margin-top: 25px;
     font-size: 30px;
 }
+.aboout-section{
+    text-align: center;
+    margin-top: 100px;
+}
+.aboout-section h2{
+    font-size: 35px;
+    font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+}
+.aboout-section i{
+ padding: 20px 0;
+ font-size: 40px;
+ color:pink;
+}
+.aboout-section p{
+    letter-spacing: 2px;
+    line-height: 35px;
+}
+.aboout-section span{
+    font-size: 25px;
+}
+.container{
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.contents{
+    float: left;
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+}
+.contents img{
+    width: 80%;
+    height: 80%;
+    background-color: pink;
+    border-radius: 50%;
+}
+.text-contents{
+    font-size: 15px;
+    margin-top: 30px;
+}
+.link-text{
+    text-align: center;
+    border:1px solid black;
+}
