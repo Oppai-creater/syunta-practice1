@@ -136,23 +136,25 @@ header .contact .mail-btn{
 }
 section{
     margin-top: 100px;
-    text-align: center;
 }
-section h2{
+section .section-title{
     font-size: 35px;
     font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+    text-align: center;
 }
 section .main-text{
     letter-spacing: 2px;
     line-height: 35px;
+    text-align: center;
 }
-section h2 span{
+section .section-title span{
     font-size: 25px;
 }
 section .dot{
     font-size: 40px;
     margin: 20px 0;
     color: #FFD5EC;
+    text-align: center;
 }
 section .dot span{
     font-size: 40px;
@@ -165,18 +167,18 @@ section .container{
     margin: 0 auto;
 }
 section .content{
-    margin-top: 70px;
-    width: 25%;
     float:left;
+    width: 25%;
+    margin-top: 70px;
     text-align: center;
 }
 .circle-image{
+    display: inline-block;
     height: 230px;
     width: 90%;
     border-radius: 50%;
     line-height: 310px;
     background-color: #FFD5EC;
-    display: inline-block;
 }
 .content img{
     width: 50%;
