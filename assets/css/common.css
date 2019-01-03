@@ -6,15 +6,12 @@
 a{
   text-decoration: none;
 }
-
 .flex {
   display: flex;
 }
-
 .flex-between {
   justify-content: space-between;
 }
-
 .section {
   padding: 100px 200px;
 }
