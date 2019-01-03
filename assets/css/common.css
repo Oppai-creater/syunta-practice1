@@ -9,20 +9,16 @@ a{
 .flex {
   display: flex;
 }
-.flex-between {
+.flex-between{
   justify-content: space-between;
-}
-.section {
-  padding: 100px 200px;
-}
-
-header{
-    padding-top: 15px;
 }
 .clearfix::after{
     content: "";
     clear: both;
     display: block;
+}
+header{
+    padding-top: 15px;
 }
 .header-logo img{
     padding: 20px;
@@ -104,3 +100,58 @@ header .contact .mail-btn{
     letter-spacing: 2px;
     font-weight: bold;
 }
+.link-btn{
+    margin: 0 auto;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    color: black;
+    position: relative;
+}
+.link-btn i{
+    font-size: 20px;
+    position: absolute;
+    top: 22px;
+    right: 20%;
+}
+#main section{
+  padding: 100px 0;
+}
+#main section .section-title{
+    font-size: 35px;
+    font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+    text-align: center;
+}
+#main section .section-title .small-text{
+    font-size: 25px;
+}
+#main section .main-text{
+    letter-spacing: 2px;
+    line-height: 35px;
+    text-align: center;
+}
+#main section .container{
+  width: 1000px;
+  margin: auto;
+}
+#main section .container .contents{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#main section .contents > .content{
+    width: 230px;
+    margin-bottom: 30px;
+}
+/* FIXME:似たような記述がある */
+#main section .dot{
+    font-size: 50px;
+    color: #FFD5EC;
+    text-align: center;
+}
+#main section .dot span{
+    font-size: 50px;
+    color: #FF9900;
+}
+
