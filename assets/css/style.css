@@ -149,12 +149,12 @@ section .main-text{
 section h2 span{
     font-size: 25px;
 }
-section .site-btn{
+section .dot{
     font-size: 40px;
     margin: 20px 0;
     color: #FFD5EC;
 }
-section .site-btn span{
+section .dot span{
     font-size: 40px;
     margin: 20px 0;
     color: #FF9900;
@@ -170,21 +170,17 @@ section .content{
     float:left;
     text-align: center;
 }
-.background-circle{
+.circle-image{
     height: 230px;
     width: 90%;
     border-radius: 50%;
-    line-height: 300px;
+    line-height: 310px;
     background-color: #FFD5EC;
     display: inline-block;
-    position: relative;
 }
 .content img{
     width: 50%;
     height: 50%;
-    position: absolute;
-    top: 50px;
-    right: 25%
 }
 .content-text{
     margin-top: 30px;
