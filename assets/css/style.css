@@ -134,3 +134,65 @@ header .contact .mail-btn{
     margin-top: 25px;
     font-size: 30px;
 }
+
+/* column */
+
+.column {
+ background: pink;
+ padding: 100px 200px;
+}
+#column .contents {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#column .content {
+  padding-right: 20px;
+}
+
+#column .c-img {
+  background-size: cover;
+  height: 200px;
+}
+
+#column .a{
+  background-image: url(../img/main/image1.jpg);`
+}
+#column .b{
+  background-image: url(../img/main/image1.jpg);`
+}
+#column .c{
+  background-image: url(../img/main/image1.jpg);`
+}
+#column .d{
+  background-image: url(../img/main/image1.jpg);`
+}
+#column .e{
+  background-image: url(../img/main/image1.jpg);`
+}
+#column .f{
+  background-image: url(../img/main/image1.jpg);`
+}
+#column .g{
+  background-image: url(../img/main/image1.jpg);`
+}
+#column .h{
+  background-image: url(../img/main/image1.jpg);`
+}
+.c-img p {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  margin-top: 5px;
+  background: pink;
+  padding: 5px 10px;
+  opacity: 0.9;
+}
+
+#column .c-dsc {
+  background: #fff;
+  font-size: 16px;
+  color: #333;
+  padding: 10px;
+}
