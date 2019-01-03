@@ -1,11 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-a{
-    text-decoration: none;
-}
+/* header */
 header{
     padding-top: 15px;
 }
@@ -133,4 +126,42 @@ header .contact .mail-btn{
 .partner-recruit-circle .link-icon{
     margin-top: 25px;
     font-size: 30px;
+}
+
+/* column */
+
+.column {
+    background: pink;
+    padding: 100px 200px;
+}
+#column .contents {
+    margin-bottom: 20px;
+}
+
+#column .content {
+    margin-right: 20px;
+}
+
+#column .c-img {
+    background-size: cover;
+    height: 200px;
+    background-image: url(../img/main/image1.jpg);
+}
+
+
+.c-img p {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+    background: pink;
+    padding: 5px 10px;
+    opacity: 0.9;
+}
+
+#column .c-dsc {
+  background: #fff;
+  font-size: 16px;
+  color: #333;
+  padding: 10px;
 }
