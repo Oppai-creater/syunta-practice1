@@ -85,3 +85,36 @@
   background: #FFF;
   padding: 10px;
 }
+.image-content{
+    width: 20%;
+    text-align: center;
+    background-color: white;
+    margin-top: 30px;
+    float: right;
+}
+.image-content img{
+    height: 200px;
+    width: 100%;
+}
+.image-content span{
+    display: inline-block;
+    padding-right: 55%;
+}
+.image-content p{
+    padding: 10px;
+    font-size: 13px;
+}
+#blog{
+    background-color: #f0e68c;
+}
+#blog .link-btn{
+    background-color: white;
+}
+.parent{
+    margin-top: 15px;
+}
+.slide-btn {
+    padding-top: 200px;
+    font-size: 30px;
+    color: gray;
+}

@@ -103,7 +103,7 @@ header .contact .mail-btn{
 }
 .link-btn{
   margin: 0 auto;
-  width: 50%;
+  width: 35%;
   padding: 20px;
   text-align: center;
   border: 1px solid black;
@@ -115,7 +115,7 @@ header .contact .mail-btn{
   font-size: 20px;
   position: absolute;
   top: 22px;
-  right: 20%;
+  right: 10%;
 }
 #main section{
   padding: 100px 0;
@@ -134,12 +134,12 @@ header .contact .mail-btn{
   text-align: center;
 }
 #main section .container{
-  width: 1000px;
+  width: 1050px;
   margin: auto;
 }
 #main section .container .contents{
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 #main section .contents > .content{
   width: 230px;
