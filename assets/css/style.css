@@ -57,64 +57,31 @@
   width: 50%;
   height: 50%;
 }
-.content-text{
-  margin-top: 30px;
-}
 /* column */
 #column {
   background: pink;
 }
-#column .content {
-  width: 23%;
-}
-#column .content-img {
-  background-image: url(../img/main/image1.jpg);
-  background-size: cover;
-  height: 200px;
-}
-#column .content-label {
-  display: inline-block;
-  text-align: center;
-  background: pink;
-  color: #FFF;
-  margin-top: 10px;
-  padding: 5px;
-  opacity: .9;
-}
-#column .content-text {
-  background: #FFF;
-  padding: 10px;
-}
-.image-content{
-    width: 20%;
-    text-align: center;
-    background-color: white;
-    margin-top: 30px;
-    float: right;
-}
-.image-content img{
-    height: 200px;
-    width: 100%;
-}
-.image-content span{
-    display: inline-block;
-    padding-right: 55%;
-}
-.image-content p{
-    padding: 10px;
-    font-size: 13px;
-}
 #blog{
     background-color: #f0e68c;
 }
-#blog .link-btn{
-    background-color: white;
+.blog-title{
+    margin-top: 10px;
 }
-.parent{
-    margin-top: 15px;
+.blog-date{
+    display: inline-block;
+    font-size: 13px;
+    padding-right: 60%;
+}
+.blog-text{
+    padding: 10px;
+    font-size: 13px;
 }
 .slide-btn {
     padding-top: 200px;
     font-size: 30px;
     color: gray;
 }
+.first{
+    margin-top: 40px;
+}
+
