@@ -60,3 +60,23 @@
 .content-text{
     margin-top: 30px;
 }
+/* news */
+#news .news-top {
+  text-align: center;
+  font-size: 32px;
+}
+#news .news-contents {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#news .news-content {
+  border-bottom: dashed 1px #aaa;
+  margin-bottom: 30px;
+}
+#news .news-content h2 {
+  font-weight: normal;
+}
+#news .news-content time {
+  margin: auto 20px;
+}
