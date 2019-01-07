@@ -8,6 +8,7 @@ a{
 }
 .flex {
   display: flex;
+  flex-wrap: wrap;
 }
 .flex-between{
   justify-content: space-between;
@@ -154,4 +155,3 @@ header .contact .mail-btn{
     font-size: 50px;
     color: #FF9900;
 }
-
