@@ -1,17 +1,17 @@
 *{
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 a{
-  text-decoration: none;
+    text-decoration: none;
 }
 .flex {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 .flex-between{
-  justify-content: space-between;
+    justify-content: space-between;
 }
 .clearfix::after{
     content: "";
@@ -118,7 +118,7 @@ header .contact .mail-btn{
     right: 20%;
 }
 #main section{
-  padding: 100px 0;
+    padding: 100px 0;
 }
 #main section .section-title{
     font-size: 35px;
@@ -134,8 +134,8 @@ header .contact .mail-btn{
     text-align: center;
 }
 #main section .container{
-  width: 1000px;
-  margin: auto;
+    width: 1000px;
+    margin: auto;
 }
 #main section .container .contents{
     margin-top: 60px;
