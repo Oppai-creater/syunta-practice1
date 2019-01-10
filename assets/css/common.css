@@ -8,150 +8,150 @@ a{
 }
 .flex {
   display: flex;
+  flex-wrap: wrap;
 }
 .flex-between{
   justify-content: space-between;
 }
 .clearfix::after{
-    content: "";
-    clear: both;
-    display: block;
+  content: "";
+  clear: both;
+  display: block;
 }
 header{
-    padding-top: 15px;
+  padding-top: 15px;
 }
 .header-logo img{
-    padding: 20px;
-    margin-left: 20px;
-    width: 240px;
+  padding: 20px;
+  margin-left: 20px;
+  width: 240px;
 }
 .contact{
-    padding: 20px;
-    float: right;
-    font-weight: bold;
+  padding: 20px;
+  float: right;
+  font-weight: bold;
 }
 .contact label{
-    display: block;
-    font-size: 10px;
+  display: block;
+  font-size: 10px;
 }
 .contact .tel-number{
-    font-size: 20px;
+  font-size: 20px;
 }
 .contact .tel {
-    float: left;
+  float: left;
 }
 .contact .inquiry{
-    float: left;
-    line-height: 40px;
+  float: left;
+  line-height: 40px;
 }
 .header-logo{
-    float: left;
+  float: left;
 }
 header .contact .mail-btn{
-    background-color: #f2a1bf;
-    padding: 20px;
-    color: white;
-    margin-left: 15px;
-    margin-right: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 1px #000000;
+  background-color: #f2a1bf;
+  padding: 20px;
+  color: white;
+  margin-left: 15px;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 1px #000000;
 }
 .contact i{
-    font-size: 20px;
+  font-size: 20px;
 }
 .header-bottom{
-    margin-top: 15px;
-    margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 .header-bottom .nav-list{
-    float: left;
-    text-align: center;
-    width: 16.5%;
-    border-right: 2px solid #d3d3d3;
+  float: left;
+  text-align: center;
+  width: 16.5%;
+  border-right: 2px solid #d3d3d3;
 }
 .header-bottom i{
-    font-size: 30px;
+  font-size: 30px;
 }
 .header-bottom .news{
-    color: #ffb3ff;
+  color: #ffb3ff;
 }
 .header-bottom .about{
-    color: #ffbf00;
+  color: #ffbf00;
 }
 .header-bottom .childcare{
-    color: #99e600;
+  color: #99e600;
 }
 .header-bottom .information{
-    color: #00e6e6;
+  color: #00e6e6;
 }
 .header-bottom .partner{
-    color: #cc52cc;
+  color: #cc52cc;
 }
 .header-bottom .recruit{
-    color: #998a99;
-    border-right: none;
+  color: #998a99;
+  border-right: none;
 }
 .header-bottom .nav-list span{
-    display: block;
-    color: #000000;
+  display: block;
+  color: #000000;
 }
 .nav-list .text{
-    font-size: 10px;
-    letter-spacing: 2px;
-    font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 .link-btn{
-    margin: 0 auto;
-    width: 50%;
-    padding: 20px;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 50px;
-    color: black;
-    position: relative;
+  margin: 0 auto;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 50px;
+  color: black;
+  position: relative;
 }
 .link-btn i{
-    font-size: 20px;
-    position: absolute;
-    top: 22px;
-    right: 20%;
+  font-size: 20px;
+  position: absolute;
+  top: 22px;
+  right: 20%;
 }
 #main section{
   padding: 100px 0;
 }
 #main section .section-title{
-    font-size: 35px;
-    font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
-    text-align: center;
+  font-size: 35px;
+  font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+  text-align: center;
 }
 #main section .section-title .small-text{
-    font-size: 25px;
+  font-size: 25px;
 }
 #main section .main-text{
-    letter-spacing: 2px;
-    line-height: 35px;
-    text-align: center;
+  letter-spacing: 2px;
+  line-height: 35px;
+  text-align: center;
 }
 #main section .container{
   width: 1000px;
   margin: auto;
 }
 #main section .container .contents{
-    margin-top: 60px;
-    margin-bottom: 60px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 #main section .contents > .content{
-    width: 230px;
-    margin-bottom: 30px;
+  width: 230px;
+  margin-bottom: 30px;
 }
 /* FIXME:似たような記述がある */
 #main section .dot{
-    font-size: 50px;
-    color: #FFD5EC;
-    text-align: center;
+  font-size: 50px;
+  color: #FFD5EC;
+  text-align: center;
 }
 #main section .dot span{
-    font-size: 50px;
-    color: #FF9900;
+  font-size: 50px;
+  color: #FF9900;
 }
-
