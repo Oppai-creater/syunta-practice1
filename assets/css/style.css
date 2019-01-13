@@ -53,13 +53,13 @@
   line-height: 310px;
   background-color: #FFD5EC;
 }
-/* column */
-#column {
-  background: pink;
-}
 #about .content .circle-image img{
   width: 50%;
   height: 50%;
+}
+/* column */
+#column {
+  background: pink;
 }
 /* blog */
 section#blog{

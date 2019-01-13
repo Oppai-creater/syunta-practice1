@@ -160,6 +160,7 @@ header .contact .mail-btn{
 .card{
   width: 22%;
   background-color: #fff;
+  margin-top: 20px;
 }
 .card-img {
   position: relative;
