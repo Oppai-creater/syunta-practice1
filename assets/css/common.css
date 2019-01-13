@@ -51,7 +51,7 @@ header{
 header .contact .mail-btn{
   background-color: #f2a1bf;
   padding: 20px;
-  color: white;
+  color: #fff;
   margin-left: 15px;
   margin-right: 20px;
   border-radius: 10px;
@@ -106,7 +106,7 @@ header .contact .mail-btn{
   width: 35%;
   padding: 20px;
   margin-top: 15px;
-  background-color: white;
+  background-color: #fff;
   text-align: center;
   border: 1px solid black;
   border-radius: 50px;
@@ -141,7 +141,7 @@ header .contact .mail-btn{
 }
 #main section .container .contents{
   margin-top: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 #main section .contents > .content{
   width: 230px;
@@ -159,12 +159,58 @@ header .contact .mail-btn{
 }
 .card{
   width: 22%;
-  margin-top: 30px;
-  text-align: center;
-  background-color: white;
-  float: right;
+  background-color: #fff;
 }
-.card img{
+.card-img {
+  position: relative;
+}
+.card .card-img img{
   height: 200px;
   width: 100%;
+}
+.card .card-label{
+  display: inline-block;
+  padding: 2px 8px;
+  color: #fff;
+  background-color: pink;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+.card-label.ribon{
+  padding: 2px 3px 2px 15px;
+  background-color: rgb(254 190 70);
+}
+.card .card-label.ribon:after{
+  content: '';
+  border-bottom: solid 15px transparent;
+  border-left: solid 20px rgb(254 190 70);
+  position: absolute;
+  top: 0;
+  right: -20px;
+}
+.card .card-label.ribon:before{
+  content: '';
+  border-top: solid 15px transparent;
+  border-left: solid 20px rgb(254 190 70);
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+}
+.card-title{
+  padding: 10px 0; 
+  text-align: center;
+}
+.card .informations .public-date{
+  display: inline-block;
+  font-size: 13px;
+  padding: 0 10px;
+}
+.card-content{
+  padding: 10px;
+  font-size: 13px;
 }
