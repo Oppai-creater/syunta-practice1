@@ -61,18 +61,14 @@
     margin-top: 30px;
 }
 /* news */
-#news .news-top {
-  text-align: center;
-  font-size: 32px;
-}
 #news .news-contents {
-  display: block;
   text-align: center;
-  margin-bottom: 50px;
+  margin: 70px auto;
 }
 #news .news-content {
   border-bottom: dashed 1px #aaa;
   margin-bottom: 30px;
+  letter-spacing: 3px;
 }
 #news .news-content time {
   margin: auto 20px;
