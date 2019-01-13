@@ -70,3 +70,16 @@ section#blog{
   font-size: 30px;
   color: gray;
 }
+/* news */
+#news .news-contents {
+  text-align: center;
+  margin: 70px auto;
+}
+#news .news-content {
+  border-bottom: dashed 1px #aaa;
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+}
+#news .news-content time {
+  margin: auto 20px;
+}
