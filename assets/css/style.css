@@ -72,7 +72,6 @@ section#blog{
 }
 /* news */
 #news .news-contents {
-  text-align: center;
   margin: 70px auto;
 }
 #news .news-content {
@@ -81,5 +80,5 @@ section#blog{
   letter-spacing: 3px;
 }
 #news .news-content time {
-  margin: auto 20px;
+  margin: 0 20px;
 }
