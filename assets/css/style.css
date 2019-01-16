@@ -82,3 +82,21 @@ section#blog{
 #news .news-content time {
   margin: 0 20px;
 }
+/* access */
+#access {
+  background: pink;
+}
+#access .access-contents {
+  margin: 100px 0;
+}
+#access img {
+  vertical-align: top;
+}
+#access .access-map {
+  margin-left: 20px;
+  display: inline-block;
+}
+#access .access-map  p {
+  color: #333;
+  padding: 20px;
+}
