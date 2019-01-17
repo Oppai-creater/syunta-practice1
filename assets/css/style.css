@@ -82,3 +82,11 @@ section#blog{
 #news .news-content time {
   margin: 0 20px;
 }
+/* access */
+#access {
+  background: #ffdbed;
+}
+#access .access-map  p {
+  color: #333;
+  padding: 20px;
+}
