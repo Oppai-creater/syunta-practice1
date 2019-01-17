@@ -90,3 +90,7 @@ section#blog{
   color: #333;
   padding: 20px;
 }
+/* relative*/
+#relative .contents img{
+  width: 30%;
+}
