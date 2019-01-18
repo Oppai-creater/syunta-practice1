@@ -221,6 +221,9 @@ header .contact .mail-btn{
   color: #fff;
   background: #555;
 }
+#footer .nav-list {
+  padding: 10px;
+}
 #footer li {
   margin-top: 10px;
 }
