@@ -94,3 +94,13 @@ section#blog{
 #relative .contents img{
   width: 30%;
 }
+#instagram .image-contents{
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  height: 400px;
+}
+#instagram .image-content{
+  width: 16.66%;
+  height: 50%;
+}
