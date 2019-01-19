@@ -1,7 +1,7 @@
 {
   "name": "syunta-practice1",
   "version": "1.0.0",
-  "description": "",
+  "description": "practice1",
   "main": "index.js",
   "dependencies": {
     "npm": "^6.6.0",
