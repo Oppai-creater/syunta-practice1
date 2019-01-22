@@ -94,3 +94,13 @@ section#blog{
 #relative .contents img{
   width: 30%;
 }
+#instagram .image-contents{
+  height: 400px;
+}
+#instagram .image-content{
+  height: 0;
+  width: 16.66%;
+  padding-bottom: 16.66%;
+  background-image: url(../img/main/image1.jpg);
+  background-size: cover;
+}
