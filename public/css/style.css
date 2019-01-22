@@ -1,0 +1,332 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap; }
+
+.flex-between {
+  justify-content: space-between; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block; }
+
+header {
+  padding-top: 15px; }
+
+.header-logo img {
+  padding: 20px;
+  margin-left: 20px;
+  width: 240px; }
+
+.contact {
+  padding: 20px;
+  float: right;
+  font-weight: bold; }
+
+.contact label {
+  display: block;
+  font-size: 10px; }
+
+.contact .tel-number {
+  font-size: 20px; }
+
+.contact .tel {
+  float: left; }
+
+.contact .inquiry {
+  float: left;
+  line-height: 40px; }
+
+.header-logo {
+  float: left; }
+
+header .contact .mail-btn {
+  background-color: #f2a1bf;
+  padding: 20px;
+  color: #fff;
+  margin-left: 15px;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 1px #000000; }
+
+.contact i {
+  font-size: 20px; }
+
+.header-bottom {
+  margin-top: 15px;
+  margin-bottom: 20px; }
+
+.header-bottom .nav-list {
+  float: left;
+  text-align: center;
+  width: 16.5%;
+  border-right: 2px solid #d3d3d3; }
+
+.header-bottom i {
+  font-size: 30px; }
+
+.header-bottom .news {
+  color: #ffb3ff; }
+
+.header-bottom .about {
+  color: #ffbf00; }
+
+.header-bottom .childcare {
+  color: #99e600; }
+
+.header-bottom .information {
+  color: #00e6e6; }
+
+.header-bottom .partner {
+  color: #cc52cc; }
+
+.header-bottom .recruit {
+  color: #998a99;
+  border-right: none; }
+
+.header-bottom .nav-list span {
+  display: block;
+  color: #000000; }
+
+.nav-list .text {
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: bold; }
+
+.link-btn {
+  margin: 0 auto;
+  width: 35%;
+  padding: 20px;
+  margin-top: 15px;
+  background-color: #fff;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 50px;
+  color: black;
+  position: relative; }
+
+.link-btn i {
+  font-size: 20px;
+  position: absolute;
+  top: 22px;
+  right: 10%; }
+
+#main section {
+  padding: 100px 0; }
+
+#main section .section-title {
+  font-size: 35px;
+  font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+  text-align: center; }
+
+#main section .section-title .small-text {
+  font-size: 25px; }
+
+#main section .main-text {
+  letter-spacing: 2px;
+  line-height: 35px;
+  text-align: center; }
+
+#main section .container {
+  width: 1050px;
+  margin: auto; }
+
+#main section .container .contents {
+  margin-top: 50px;
+  margin-bottom: 60px; }
+
+#main section .contents > .content {
+  width: 230px;
+  margin-bottom: 30px; }
+
+/* FIXME:似たような記述がある */
+#main section .dot {
+  font-size: 50px;
+  color: #FFD5EC;
+  text-align: center; }
+
+#main section .dot span {
+  font-size: 50px;
+  color: #FF9900; }
+
+.card {
+  width: 22%;
+  background-color: #fff;
+  margin-top: 20px; }
+
+.card-img {
+  position: relative; }
+
+.card .card-img img {
+  height: 200px;
+  width: 100%; }
+
+.card .card-label {
+  display: inline-block;
+  padding: 2px 8px;
+  color: #fff;
+  background-color: pink;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  left: 0; }
+
+.card-label.ribon {
+  padding: 2px 3px 2px 15px;
+  background-color: #febe46; }
+
+.card .card-label.ribon:after {
+  content: '';
+  border-bottom: solid 15px transparent;
+  border-left: solid 20px #febe46;
+  position: absolute;
+  top: 0;
+  right: -20px; }
+
+.card .card-label.ribon:before {
+  content: '';
+  border-top: solid 15px transparent;
+  border-left: solid 20px #febe46;
+  position: absolute;
+  right: -20px;
+  bottom: 0; }
+
+.card-title {
+  padding: 10px 0;
+  text-align: center; }
+
+.card .informations .public-date {
+  display: inline-block;
+  font-size: 13px;
+  padding: 0 10px; }
+
+.card-content {
+  padding: 10px;
+  font-size: 13px; }
+
+#footer {
+  height: 250px;
+  padding: 100px;
+  color: #fff;
+  background: #555; }
+
+#footer .nav-list {
+  padding: 10px; }
+
+#footer li {
+  margin-top: 10px; }
+
+#footer a {
+  color: inherit; }
+
+#footer p {
+  text-align: center;
+  margin-top: 50px; }
+
+/* メインビジュアル */
+.main-visual {
+  height: 650px;
+  background-image: url(../img/main-visual.jpg);
+  background-size: cover;
+  background-position: bottom;
+  position: relative; }
+
+.partner-recruit-circle {
+  height: 280px;
+  width: 280px;
+  background-color: white;
+  border-radius: 50%;
+  border: 5px solid pink;
+  text-align: center;
+  color: pink;
+  position: absolute;
+  bottom: -50px;
+  right: 30px;
+  font-weight: bold; }
+
+.partner-recruit-circle .campaign {
+  margin-top: 40px;
+  font-size: 18px; }
+
+.partner-recruit-circle .campaign::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 35px;
+  margin: 0 auto;
+  background-color: pink; }
+
+.partner-recruit-circle .recruiting {
+  margin-top: 15px;
+  font-size: 28px; }
+
+.partner-recruit-circle .link-icon {
+  margin-top: 25px;
+  font-size: 30px; }
+
+/* about */
+#about .content {
+  text-align: center; }
+
+#about .circle-image {
+  display: inline-block;
+  height: 230px;
+  width: 230px;
+  margin: auto;
+  border-radius: 50%;
+  line-height: 310px;
+  background-color: #FFD5EC; }
+
+#about .content .circle-image img {
+  width: 50%;
+  height: 50%; }
+
+/* column */
+#column {
+  background: pink; }
+
+/* blog */
+section#blog {
+  background-color: #f0e68c; }
+
+.slide-btn {
+  padding-top: 200px;
+  font-size: 30px;
+  color: gray; }
+
+/* news */
+#news .news-contents {
+  margin: 70px auto; }
+
+#news .news-content {
+  border-bottom: dashed 1px #aaa;
+  margin-bottom: 30px;
+  letter-spacing: 3px; }
+
+#news .news-content time {
+  margin: 0 20px; }
+
+/* access */
+#access {
+  background: #ffdbed; }
+
+#access .access-map p {
+  color: #333;
+  padding: 20px; }
+
+/* relative*/
+#relative .contents img {
+  width: 30%; }
+
